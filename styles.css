@@ -1,0 +1,86 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    background: url("https://cdn.pixabay.com/photo/2020/02/06/08/19/band-4823341_1280.jpg") no-repeat center center/cover;
+    color: #ffffff;
+    line-height: 1.6;
+    background-attachment: fixed; /* Parallax effect */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #121212;
+}
+
+header {
+    /* position: relative; */
+    /* height: 100px; */
+    /* height: max-content; */
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+header nav {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #7c0057;
+    border-radius: 5px;
+}
+
+#name h1 {
+    font-size: 5rem;
+    margin: 100px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer .container {
+    background-color: #222;
+}
